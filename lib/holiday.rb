@@ -91,17 +91,18 @@ end
     holiday_hash.map do |holiday, supplies|
       holiday if supplies.include?("BBQ")
     end  
+    holiday
   end        
 end
 
 
- def all_holidays_with_bbq(holiday_hash)
+ #def all_holidays_with_bbq(holiday_hash)
   
-  holiday_supplies.each do |season, holidays_hash|
-    holiday_hash.each do |holiday, supplies|
-      supplies.include?("BBQ")
-        supplies.map {"BBQ"}
-    end  
+  #holiday_supplies.each do |season, holidays_hash|
+   # holiday_hash.each do |holiday, supplies|
+    #  supplies.include?("BBQ")
+     #   supplies.map {"BBQ"}
+  #  end  
   end        
 end
 
