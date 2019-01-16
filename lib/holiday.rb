@@ -90,9 +90,11 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_supplies.each do |season, holidays_hash|
     holiday_hash.each do |holiday, supplies|
       supplies.include?("BBQ")
+        bbq_holidays = []
         supplies.map {"BBQ"}
     end  
-  end        
+  end    
+  bbq_holidays
 end
 
  
