@@ -93,7 +93,7 @@ def all_holidays_with_bbq(holiday_hash)
       
     end    
   end        
-end
+end.flatten.compact
 
 
  #def all_holidays_with_bbq(holiday_hash)
