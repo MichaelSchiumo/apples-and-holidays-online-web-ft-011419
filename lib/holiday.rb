@@ -93,8 +93,8 @@ def all_holidays_with_bbq(holiday_hash)
         bbq_holidays = []
         supplies.map {"BBQ"}
     end  
+    bbq_holidays
   end    
-  bbq_holidays
 end
 
  
