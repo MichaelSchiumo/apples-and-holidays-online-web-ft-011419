@@ -89,9 +89,9 @@ end
   
   holiday_supplies.map do |season, holidays_hash|
     holiday_hash.map do |holiday, supplies|
-      holiday if supplies.include?("BBQ")
+    if supplies.include?("BBQ")
+      return holiday
     end  
-    holiday
   end        
 end
 
