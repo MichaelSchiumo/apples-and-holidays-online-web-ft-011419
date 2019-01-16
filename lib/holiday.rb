@@ -92,6 +92,10 @@ def all_holidays_with_bbq(holiday_hash)
       supplies.each do |supply|
         if supply == 'BBQ'
           return :holiday
+        end
+      end
+    end  
+  end        
 end
 
  
