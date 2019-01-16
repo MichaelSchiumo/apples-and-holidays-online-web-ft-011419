@@ -103,7 +103,5 @@ end
     #  supplies.include?("BBQ")
      #   supplies.map {"BBQ"}
   #  end  
-  end        
-end
-
+  
 
